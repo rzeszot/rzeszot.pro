@@ -1,12 +1,13 @@
 name: rzeszot-website
-version: 0.1.0
+version: 1.0.0
 
 authors:
   - Damian Rzeszot <damian.rzeszot@gmail.com>
 
-targets:
-  rzeszot-website:
-    main: src/rzeszot-website.cr
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
 
 crystal: 0.31.1
 
