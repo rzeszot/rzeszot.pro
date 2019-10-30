@@ -1,2 +1,2 @@
 require "spec"
-require "../src/rzeszot-website"
+require "../src/example"
