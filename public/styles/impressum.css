@@ -19,18 +19,4 @@ div {
   left: 0;
   right: 0;
   margin: auto;
-
-  text-align: center
-}
-
-img {
-  display: block;
-    width: 840px;
-    height: 472px;
-}
-
-a {
-  font-family: monospace;
-  display: block;
-  padding: 10px;
 }
