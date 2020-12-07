@@ -7,11 +7,12 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
+  font-family: monospace;
 }
 
 div {
-  width: 840px;
-  height: 472px;
+  width: 250px;
+  height: 150px;
 
   position: absolute;
   top: 0;
@@ -19,4 +20,11 @@ div {
   left: 0;
   right: 0;
   margin: auto;
+
+  white-space: pre-line;
+  font-family: monospace;
+}
+
+strong {
+  font-weight: 500;
 }
