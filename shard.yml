@@ -1,14 +1,21 @@
-name: rzeszot-website
+name: rzeszot-pro
 version: 1.0.0
 
 authors:
   - Damian Rzeszot <damian.rzeszot@gmail.com>
 
+description: |
+  rzeszot.pro website
+
+crystal: 0.35.1
+
 dependencies:
   kemal:
     github: kemalcr/kemal
-    branch: master
 
-crystal: 0.31.1
+targets:
+  rzeszot-pro:
+    main: src/main.cr
 
-license: MIT
+executables:
+  - rzeszot-pro
