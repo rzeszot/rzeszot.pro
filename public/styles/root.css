@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 
-div {
+section {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -35,8 +35,11 @@ p {
   margin: 0 auto;
 }
 
+div {
+  margin-top: 10px;
+}
+
 a {
   font-family: monospace;
-  display: block;
   padding: 10px;
 }
